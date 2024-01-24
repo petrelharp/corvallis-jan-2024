@@ -435,6 +435,150 @@ and Haller, Galloway, Kelleher, Messer, and R. 2018,
 ::::::
 
 
+<!-- Snewts -->
+
+# Spatial coevolution: snakes and newts
+
+:::: {.columns}
+:::::::: {.column width=70%}
+
+![Battling newts and snakes](figs/snewts/biowarfare_cartoon.gif)
+
+::::
+:::::::: {.column width=30%}
+::: {.centered}
+
+![Victoria Caudill](figs/victoria.jpg){width=80%}
+
+Victoria Caudill
+
+:::
+::::
+::::::::
+
+::::::::::: {.caption}
+Image from [evolution.berkeley.edu](https://evolution.berkeley.edu/biological-warfare-and-the-coevolutionary-arms-race/coevolution/)
+:::::::::::
+
+## {data-background-image="figs/snewts/snewt-lit.png" data-background-position="top" data-background-width=60%}
+
+::: {.caption .bottomright .smallish}
+newt: [CC by Steve Jurvetson](https://en.m.wikipedia.org/wiki/File:California_Newt_%28Taricha_torosa%29_%284415749606%29.jpg)
+
+snake: [CC by Jaden Clark](https://commons.wikimedia.org/wiki/File:California_Red-Sided_Garter_Snake_\(Thamnophis_sirtalis_infernalis\).jpg)
+:::
+
+
+---------------
+
+![Fig 1 from Reimche et al 2020](figs/snewts/reimche2020-fig1.jpg){width=70%}
+
+::::::::::: {.caption}
+[Fig 1, Reimche et al 2020](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/1365-2656.13212)
+:::::::::::
+
+---------------
+
+![Fig 2 from Hanifin et al 2008](figs/snewts/hanifin2008-fig2.png){width=70%}
+
+::::::::::: {.caption}
+[Fig 2, Hanifin et al 2008](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.0060060)
+:::::::::::
+
+## Why, and how?
+
+![](figs/snewts/brodie2002abstract.png){width=100%}
+
+
+## A spatial co-evolutionary simulation
+
+:::: {.columns}
+:::::::: {.column width=50%}
+
+- continuous space
+- local density-dependent mortality
+- additive, costly traits ("toxicity" and "resistance")
+- various genetic architectures
+- snakes may encounter nearby newts,
+    outcome depends on difference in traits:
+
+    * snake eats newt, gets fitness benefit, or
+    * snake dies, newt escapes
+
+::::
+:::::::: {.column width=50%}
+
+![Screenshot of a SLiM simulation](figs/snewts/slim-screenshot.png)
+
+::::
+::::::::
+
+## No spatial correlation on a flat map
+
+:::: {.columns}
+:::::::: {.column width=50%}
+
+![](figs/snewts/nocor_map.png)
+
+::::
+:::::::: {.column width=50%}
+
+![](figs/snewts/nocor_boxplots.png)
+
+::::
+::::::::
+
+## Add some heterogeneity
+
+![](figs/snewts/gradient-maps.png)
+
+------------
+
+:::: {.columns}
+:::::::: {.column width=50%}
+
+![](figs/snewts/cor_map.png)
+
+::::
+:::::::: {.column width=50%}
+
+![](figs/snewts/cor_boxplots.png)
+
+::::
+::::::::
+
+## Conclusions
+
+:::: {.columns}
+:::::::: {.column width=50%}
+
+![Fig 2 from Hanifin et al 2008](figs/snewts/hanifin2008-fig2.png)
+
+::::
+:::::::: {.column width=50%}
+
+- such large correlated differences across the landscape
+    unlikely to be due to nonadaptive forces
+
+- spatial heterogeneity in ecological factors
+    much more plausible
+
+- trait genetic architecture has little effect,
+    given sufficient variation
+
+
+::: {.caption .floatright}
+![Victoria Caudill](figs/victoria.jpg){width=20% .floatright}
+
+Victoria Caudill
+:::
+
+::::
+::::::::
+
+
+
+
 <!-- Great apes -->
 
 # Landscapes of genetic diversity
@@ -455,7 +599,7 @@ and Haller, Galloway, Kelleher, Messer, and R. 2018,
 [Stankowski, Chase et al. (2019)](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000391); [Van Doren et al. (2017)](https://onlinelibrary.wiley.com/doi/10.1111/mec.14083); [Buri (2017)](https://academic.oup.com/evlett/article/1/3/118/6697077)
 :::
 
-## The study system
+## The study system: "us"
 
 :::: {.columns}
 :::::::: {.column width=50%}
@@ -796,159 +940,18 @@ $$ { d_{xy} = \pi_\text{anc} \nearrow + \mu T_\text{MRCA} \searrow } $$
 ![](figs/murillo/cor-pidxy-dT_selected-positive.png){.invisible height=80%}
 
 
-<!-- Snewts -->
-
-# Spatial coevolution: snakes and newts
-
-:::: {.columns}
-:::::::: {.column width=70%}
-
-![Battling newts and snakes](figs/snewts/biowarfare_cartoon.gif)
-
-::::
-:::::::: {.column width=30%}
-::: {.centered}
-
-![Victoria Caudill](figs/victoria.jpg){width=80%}
-
-Victoria Caudill
-
-:::
-::::
-::::::::
-
-::::::::::: {.caption}
-Image from [evolution.berkeley.edu](https://evolution.berkeley.edu/biological-warfare-and-the-coevolutionary-arms-race/coevolution/)
-:::::::::::
-
-## {data-background-image="figs/snewts/snewt-lit.png" data-background-position="top" data-background-width=60%}
-
-::: {.caption .bottomright .smallish}
-newt: [CC by Steve Jurvetson](https://en.m.wikipedia.org/wiki/File:California_Newt_%28Taricha_torosa%29_%284415749606%29.jpg)
-
-snake: [CC by Jaden Clark](https://commons.wikimedia.org/wiki/File:California_Red-Sided_Garter_Snake_\(Thamnophis_sirtalis_infernalis\).jpg)
-:::
-
-
----------------
-
-![Fig 1 from Reimche et al 2020](figs/snewts/reimche2020-fig1.jpg){width=70%}
-
-::::::::::: {.caption}
-[Fig 1, Reimche et al 2020](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/1365-2656.13212)
-:::::::::::
-
----------------
-
-![Fig 2 from Hanifin et al 2008](figs/snewts/hanifin2008-fig2.png){width=70%}
-
-::::::::::: {.caption}
-[Fig 2, Hanifin et al 2008](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.0060060)
-:::::::::::
-
-## Why, and how?
-
-![](figs/snewts/brodie2002abstract.png){width=100%}
-
-
-## A spatial co-evolutionary simulation
-
-:::: {.columns}
-:::::::: {.column width=50%}
-
-- continuous space
-- local density-dependent mortality
-- additive, costly traits ("toxicity" and "resistance")
-- various genetic architectures
-- snakes may encounter nearby newts,
-    outcome depends on difference in traits:
-
-    * snake eats newt, gets fitness benefit, or
-    * snake dies, newt escapes
-
-::::
-:::::::: {.column width=50%}
-
-![Screenshot of a SLiM simulation](figs/snewts/slim-screenshot.png)
-
-::::
-::::::::
-
-## No spatial correlation on a flat map
-
-:::: {.columns}
-:::::::: {.column width=50%}
-
-![](figs/snewts/nocor_map.png)
-
-::::
-:::::::: {.column width=50%}
-
-![](figs/snewts/nocor_boxplots.png)
-
-::::
-::::::::
-
-## Add some heterogeneity
-
-![](figs/snewts/gradient-maps.png)
-
-------------
-
-:::: {.columns}
-:::::::: {.column width=50%}
-
-![](figs/snewts/cor_map.png)
-
-::::
-:::::::: {.column width=50%}
-
-![](figs/snewts/cor_boxplots.png)
-
-::::
-::::::::
-
-## Conclusions
-
-:::: {.columns}
-:::::::: {.column width=50%}
-
-![Fig 2 from Hanifin et al 2008](figs/snewts/hanifin2008-fig2.png)
-
-::::
-:::::::: {.column width=50%}
-
-- such large correlated differences across the landscape
-    unlikely to be due to nonadaptive forces
-
-- spatial heterogeneity in ecological factors
-    much more plausible
-
-- trait genetic architecture has little effect,
-    given sufficient variation
-
-
-::: {.caption .floatright}
-![Victoria Caudill](figs/victoria.jpg){width=20% .floatright}
-
-Victoria Caudill
-:::
-
-::::
-::::::::
-
-
-
-
 # Wrap-up
 
 ## Other applications
 
-- inference of recombination rate maps (Jeff Adrion; ReLERNN)
-- inference of mean dispersal distance (Chris Smith; disperseNN)
 - history of *Nebria* beetles (Gilia Patterson, Sean Schoville, Yi-Ming Weng)
+- inference of mean dispersal distance (Chris Smith; disperseNN)
+- and of maps of effective density and dispersal distance (Chris Smith; mapNN)
+- inference of recombination rate maps (Jeff Adrion; ReLERNN)
 
-- inference of maps of population density
+. . .
+
+- inference of maps of population density (Gilia Patterson)
 - and individual movement
 - identification of regions under selection
 
@@ -996,15 +999,15 @@ Victoria Caudill
 - Victoria Caudill
 - Murillo Rodrigues 
 - Gilia Patterson
+- Chris Smith
 - Nate Pope
+- Jiseon Min
+- Clara Rehmann
+- Bruce Edelman
 - Anastasia Teterina
 - Matt Lukac
-- Chris Smith
-- Clara Rehmann
-- Jiseon Min
 <!--
 - Saurabh Belsare
-- Chris Smith
 - Gabby Coffing
 - Jeff Adrion
 - CJ Battey
