@@ -5,6 +5,13 @@ date: "Ecology, Evolution, and Conservation Biology <br/> Oregon State Universit
 ---
 
 
+--------------------
+
+> Both the UO and OSU are located on the traditional indigenous homeland of the Kalapuya people.
+Kalapuya people were dispossessed of their indigenous homeland by the United States government and forcibly removed.
+Today, Kalapuya descendants are primarily citizens of the Confederated Tribes of Grand Ronde and the Confederated Tribes of Siletz Indians,
+and continue to make important contributions to their communities, to the UO, to Oregon, and to the world.
+
 # Outline
 
 <!-- Abstract:
@@ -20,6 +27,7 @@ produced the landscapes of genetic diversity in the great apes; and describing c
 coevolution can produce spatial correlations in phenotypes such as seen in the classic
 Taricha newt-Thamnophis garter snake system.
 -->
+
 
 ## Outline of the talk
 
